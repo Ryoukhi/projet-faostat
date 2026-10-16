@@ -1,0 +1,17 @@
+# Données brutes (trop lourdes)
+data/raw/
+
+# Logs et échantillons
+02_collecte/logs/
+02_collecte/echantillons/
+
+# Environnements
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Fichiers temporaires
+*.part
