@@ -15,3 +15,10 @@ __pycache__/
 
 # Fichiers temporaires
 *.part
+
+# Logs bruts
+02_collecte/logs/*.log
+02_collecte/logs/*.part
+
+# Mais on garde le rapport JSON de traçabilité
+!02_collecte/logs/faostat_report.json
