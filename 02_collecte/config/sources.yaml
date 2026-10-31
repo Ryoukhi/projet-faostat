@@ -1,0 +1,14 @@
+sources:
+  worldbank_pink_sheet:
+    type: excel
+    url: "https://thedocs.worldbank.org/..."
+  open_meteo:
+    type: api
+    base_url: "https://archive-api.open-meteo.com/v1/archive"
+  nasa_power:
+    type: api
+    base_url: "https://power.larc.nasa.gov/api/temporal/daily/point"
+  eia:
+    type: api
+    base_url: "https://api.eia.gov/v2"
+    api_key: "${EIA_API_KEY}"  # lu depuis .env

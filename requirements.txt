@@ -8,3 +8,5 @@ urllib3>=2.0,<3.0
 
 # ─── Formats ────────────────────────────────
 openpyxl>=3.1,<4.0        # lecture Excel (World Bank Pink Sheet)
+
+pyarrow>=14.0,<16.0        # format Parquet
